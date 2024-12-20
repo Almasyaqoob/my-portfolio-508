@@ -12,7 +12,7 @@ interface PropsType{
 
 const Card :React.FC<PropsType>= ({ title, tags, img, desc }) => {
   return (
-    <div className='border border-accent  w-[300px] sm:w-[350px]'data-aos="zoom-in">
+    <div className='border border-accent   w-[300px] sm:w-[350px]'data-aos="zoom-in">
         <div>
             <Image className='w-[300px] sm:w-[350px] h-auto'
               width={350}
@@ -23,8 +23,8 @@ const Card :React.FC<PropsType>= ({ title, tags, img, desc }) => {
         </div>
 
 
-        <div className='p-4 sp-y-4'>
-            <div className='text-4xl font-extralight'>{title}</div>
+        <div className='p-4 sp-y-4 '>
+            <div className='text-4xl font-bold'>{title}</div>
             <div>{desc}</div>
             <div>
                 {tags.map((el) => (

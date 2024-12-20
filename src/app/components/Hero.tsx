@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
+import"aos/dist/aos.css";
+
 const Hero = () => {
   return (
     <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/images/banner_bg.png)] bg-cover'
@@ -10,7 +12,7 @@ const Hero = () => {
       <div className='hidden lg:block'></div>
       <div className='text-[60px] sm:text-[80px] font-bold leading-tight flex justify-center items-center'>
       <div>
-        <p data-aos="zoom-in">I'm</p>
+        <p data-aos="zoom-in">Im</p>
         <p data-aos="zoom-in">Almas</p>
         <p data-aos="zoom-in">Yaqoob</p>
       </div>
